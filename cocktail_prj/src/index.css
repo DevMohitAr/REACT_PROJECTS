@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color:#F7F9FD ;
+  
+}
+.allProductsBtn {
+  text-decoration: none;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: #070708;
+  color: white;
+  border-radius: 15px;
+  padding: 0.75rem 1.25rem;
+}
+.btn {
+  text-transform: capitalize;
+  background-color: red;
+  padding: 0.85rem 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+
+  padding: 8px;
+}
+article {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+ 
+  display: grid;
+grid-template-columns: 1fr;
+grid-template-rows:auto auto auto 1fr;
+gap: 1rem;
+  
+  
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.title{
+white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+.myForm{
+ 
+  display: flex;
+  
+  padding-left: 8px;
+  padding-right: 8px;
+  grid-column: 2;
+  align-self: center;
+}
+input{
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.homeLinkBtn{
+  grid-column: 1/4;
+  align-items: center;
+  
+ 
+}
+.homeBtn{
+ padding: 1rem 1.5rem;
+ text-transform: capitalize;
+ font-size: 1.25rem;
+ background-color: #070708;
+ color: white;
+ border: none;
+}
+.drinkImg{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  
+}
+.centerBtn{
+  display: inline-block;
+ margin: 0 auto;
+}
+.noItem{
+  font-size: 2rem;
+  color: red;
+  grid-column: 2;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.mySec{
+  max-width: 880px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:1fr 3fr 1fr  1fr;
+  align-items: center;
+  padding: 4rem;
+}
+@media screen and (min-width:680px) {
+  .readPara{
+    max-width: 25ch;
+  }
+}
