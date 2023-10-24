@@ -1,9 +1,11 @@
 import React from "react";
-import { Home } from "./components/Home";
+// import { Home } from "./components/Home";
+import New from "./components/New";
 
 const App = () => {
   return <>
-  <Home/>
+  {/* <Home/> */}
+  <New/>
   </>;
 };
 export default App;
