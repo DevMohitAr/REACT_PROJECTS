@@ -1,0 +1,12 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+.mapContainer {
+  flex: 1;
+  /* Additional styles for .mapContainer */
+  height: 100%;
+  position: relative;
+}
+
+
+.map{
+    height: 100%;
+}
